@@ -7,7 +7,7 @@ import ListToDo from './ListToDo'
 
 class TaskApp extends Component {
     constructor(){
-        super()
+        super() /* preguntar */
 
         this.state={
             taskAdded:'',
