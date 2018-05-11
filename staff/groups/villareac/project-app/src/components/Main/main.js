@@ -326,9 +326,7 @@ class Main extends Component {
                         />
                     )
                     } />
-                    <Route path="*" render={() => (
-                        <NotFound />
-                    )} />
+                    <Route component={ NotFound } />
                 </Switch>
 
             </div>
